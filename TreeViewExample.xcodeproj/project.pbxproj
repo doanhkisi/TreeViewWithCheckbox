@@ -15,6 +15,22 @@
 		BAF363731BDF113100AC0D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF363711BDF113100AC0D75 /* LaunchScreen.storyboard */; };
 		BAF3637E1BDF113100AC0D75 /* TreeViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF3637D1BDF113100AC0D75 /* TreeViewExampleTests.m */; };
 		BAF363891BDF113100AC0D75 /* TreeViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363881BDF113100AC0D75 /* TreeViewExampleUITests.m */; };
+		BAF3639A1BDF1C6700AC0D75 /* TreeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363991BDF1C6700AC0D75 /* TreeViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		BAF3639C1BDF26AE00AC0D75 /* TreeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF3639B1BDF26AE00AC0D75 /* TreeViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		BAF363A01BDF573600AC0D75 /* DataTreeViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF3639F1BDF573600AC0D75 /* DataTreeViewObject.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363C01BDF59CD00AC0D75 /* RABatchChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363A41BDF59CD00AC0D75 /* RABatchChanges.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363C11BDF59CD00AC0D75 /* RATreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363A61BDF59CD00AC0D75 /* RATreeNode.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363C21BDF59CD00AC0D75 /* RATreeNodeCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363A91BDF59CD00AC0D75 /* RATreeNodeCollectionController.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363C31BDF59CD00AC0D75 /* RATreeNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363AB1BDF59CD00AC0D75 /* RATreeNodeController.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363C41BDF59CD00AC0D75 /* RATreeNodeItem+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363AE1BDF59CD00AC0D75 /* RATreeNodeItem+Private.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363C51BDF59CD00AC0D75 /* RATreeNodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363B01BDF59CD00AC0D75 /* RATreeNodeItem.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363C61BDF59CD00AC0D75 /* RATreeView+Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363B21BDF59CD00AC0D75 /* RATreeView+Enums.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363C71BDF59CD00AC0D75 /* RATreeView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363B41BDF59CD00AC0D75 /* RATreeView+Private.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363C81BDF59CD00AC0D75 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363B61BDF59CD00AC0D75 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363C91BDF59CD00AC0D75 /* RATreeView+TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363B81BDF59CD00AC0D75 /* RATreeView+TableViewDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363CA1BDF59CD00AC0D75 /* RATreeView+TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363BA1BDF59CD00AC0D75 /* RATreeView+TableViewDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363CB1BDF59CD00AC0D75 /* RATreeView+UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363BC1BDF59CD00AC0D75 /* RATreeView+UIScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		BAF363CC1BDF59CD00AC0D75 /* RATreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF363BF1BDF59CD00AC0D75 /* RATreeView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,40 @@
 		BAF363841BDF113100AC0D75 /* TreeViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF363881BDF113100AC0D75 /* TreeViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeViewExampleUITests.m; sourceTree = "<group>"; };
 		BAF3638A1BDF113100AC0D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF363981BDF1C6700AC0D75 /* TreeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeViewCell.h; path = Controls/TreeViewCell.h; sourceTree = "<group>"; };
+		BAF363991BDF1C6700AC0D75 /* TreeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeViewCell.m; path = Controls/TreeViewCell.m; sourceTree = "<group>"; };
+		BAF3639B1BDF26AE00AC0D75 /* TreeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TreeViewCell.xib; path = Controls/TreeViewCell.xib; sourceTree = "<group>"; };
+		BAF3639E1BDF573600AC0D75 /* DataTreeViewObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTreeViewObject.h; sourceTree = "<group>"; };
+		BAF3639F1BDF573600AC0D75 /* DataTreeViewObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTreeViewObject.m; sourceTree = "<group>"; };
+		BAF363A31BDF59CD00AC0D75 /* RABatchChanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RABatchChanges.h; sourceTree = "<group>"; };
+		BAF363A41BDF59CD00AC0D75 /* RABatchChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RABatchChanges.m; sourceTree = "<group>"; };
+		BAF363A51BDF59CD00AC0D75 /* RATreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeNode.h; sourceTree = "<group>"; };
+		BAF363A61BDF59CD00AC0D75 /* RATreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATreeNode.m; sourceTree = "<group>"; };
+		BAF363A71BDF59CD00AC0D75 /* RATreeNode_ClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeNode_ClassExtension.h; sourceTree = "<group>"; };
+		BAF363A81BDF59CD00AC0D75 /* RATreeNodeCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeNodeCollectionController.h; sourceTree = "<group>"; };
+		BAF363A91BDF59CD00AC0D75 /* RATreeNodeCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATreeNodeCollectionController.m; sourceTree = "<group>"; };
+		BAF363AA1BDF59CD00AC0D75 /* RATreeNodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeNodeController.h; sourceTree = "<group>"; };
+		BAF363AB1BDF59CD00AC0D75 /* RATreeNodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATreeNodeController.m; sourceTree = "<group>"; };
+		BAF363AC1BDF59CD00AC0D75 /* RATreeNodeItem+ClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeNodeItem+ClassExtension.h"; sourceTree = "<group>"; };
+		BAF363AD1BDF59CD00AC0D75 /* RATreeNodeItem+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeNodeItem+Private.h"; sourceTree = "<group>"; };
+		BAF363AE1BDF59CD00AC0D75 /* RATreeNodeItem+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeNodeItem+Private.m"; sourceTree = "<group>"; };
+		BAF363AF1BDF59CD00AC0D75 /* RATreeNodeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeNodeItem.h; sourceTree = "<group>"; };
+		BAF363B01BDF59CD00AC0D75 /* RATreeNodeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATreeNodeItem.m; sourceTree = "<group>"; };
+		BAF363B11BDF59CD00AC0D75 /* RATreeView+Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+Enums.h"; sourceTree = "<group>"; };
+		BAF363B21BDF59CD00AC0D75 /* RATreeView+Enums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+Enums.m"; sourceTree = "<group>"; };
+		BAF363B31BDF59CD00AC0D75 /* RATreeView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+Private.h"; sourceTree = "<group>"; };
+		BAF363B41BDF59CD00AC0D75 /* RATreeView+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+Private.m"; sourceTree = "<group>"; };
+		BAF363B51BDF59CD00AC0D75 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+RATreeNodeCollectionControllerDataSource.h"; sourceTree = "<group>"; };
+		BAF363B61BDF59CD00AC0D75 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+RATreeNodeCollectionControllerDataSource.m"; sourceTree = "<group>"; };
+		BAF363B71BDF59CD00AC0D75 /* RATreeView+TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+TableViewDataSource.h"; sourceTree = "<group>"; };
+		BAF363B81BDF59CD00AC0D75 /* RATreeView+TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+TableViewDataSource.m"; sourceTree = "<group>"; };
+		BAF363B91BDF59CD00AC0D75 /* RATreeView+TableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+TableViewDelegate.h"; sourceTree = "<group>"; };
+		BAF363BA1BDF59CD00AC0D75 /* RATreeView+TableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+TableViewDelegate.m"; sourceTree = "<group>"; };
+		BAF363BB1BDF59CD00AC0D75 /* RATreeView+UIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+UIScrollView.h"; sourceTree = "<group>"; };
+		BAF363BC1BDF59CD00AC0D75 /* RATreeView+UIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+UIScrollView.m"; sourceTree = "<group>"; };
+		BAF363BD1BDF59CD00AC0D75 /* RATreeView_ClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeView_ClassExtension.h; sourceTree = "<group>"; };
+		BAF363BE1BDF59CD00AC0D75 /* RATreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeView.h; sourceTree = "<group>"; };
+		BAF363BF1BDF59CD00AC0D75 /* RATreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATreeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +151,8 @@
 		BAF363621BDF113100AC0D75 /* TreeViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				BAF3639D1BDF573600AC0D75 /* Model */,
+				BAF363961BDF125C00AC0D75 /* Controls */,
 				BAF363661BDF113100AC0D75 /* AppDelegate.h */,
 				BAF363671BDF113100AC0D75 /* AppDelegate.m */,
 				BAF363691BDF113100AC0D75 /* ViewController.h */,
@@ -138,6 +190,70 @@
 				BAF3638A1BDF113100AC0D75 /* Info.plist */,
 			);
 			path = TreeViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		BAF363961BDF125C00AC0D75 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				BAF3639B1BDF26AE00AC0D75 /* TreeViewCell.xib */,
+				BAF363981BDF1C6700AC0D75 /* TreeViewCell.h */,
+				BAF363991BDF1C6700AC0D75 /* TreeViewCell.m */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		BAF3639D1BDF573600AC0D75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAF363A11BDF59CD00AC0D75 /* RATreeView */,
+				BAF3639E1BDF573600AC0D75 /* DataTreeViewObject.h */,
+				BAF3639F1BDF573600AC0D75 /* DataTreeViewObject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAF363A11BDF59CD00AC0D75 /* RATreeView */ = {
+			isa = PBXGroup;
+			children = (
+				BAF363A21BDF59CD00AC0D75 /* Private Files */,
+				BAF363BE1BDF59CD00AC0D75 /* RATreeView.h */,
+				BAF363BF1BDF59CD00AC0D75 /* RATreeView.m */,
+			);
+			path = RATreeView;
+			sourceTree = "<group>";
+		};
+		BAF363A21BDF59CD00AC0D75 /* Private Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF363A31BDF59CD00AC0D75 /* RABatchChanges.h */,
+				BAF363A41BDF59CD00AC0D75 /* RABatchChanges.m */,
+				BAF363A51BDF59CD00AC0D75 /* RATreeNode.h */,
+				BAF363A61BDF59CD00AC0D75 /* RATreeNode.m */,
+				BAF363A71BDF59CD00AC0D75 /* RATreeNode_ClassExtension.h */,
+				BAF363A81BDF59CD00AC0D75 /* RATreeNodeCollectionController.h */,
+				BAF363A91BDF59CD00AC0D75 /* RATreeNodeCollectionController.m */,
+				BAF363AA1BDF59CD00AC0D75 /* RATreeNodeController.h */,
+				BAF363AB1BDF59CD00AC0D75 /* RATreeNodeController.m */,
+				BAF363AC1BDF59CD00AC0D75 /* RATreeNodeItem+ClassExtension.h */,
+				BAF363AD1BDF59CD00AC0D75 /* RATreeNodeItem+Private.h */,
+				BAF363AE1BDF59CD00AC0D75 /* RATreeNodeItem+Private.m */,
+				BAF363AF1BDF59CD00AC0D75 /* RATreeNodeItem.h */,
+				BAF363B01BDF59CD00AC0D75 /* RATreeNodeItem.m */,
+				BAF363B11BDF59CD00AC0D75 /* RATreeView+Enums.h */,
+				BAF363B21BDF59CD00AC0D75 /* RATreeView+Enums.m */,
+				BAF363B31BDF59CD00AC0D75 /* RATreeView+Private.h */,
+				BAF363B41BDF59CD00AC0D75 /* RATreeView+Private.m */,
+				BAF363B51BDF59CD00AC0D75 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */,
+				BAF363B61BDF59CD00AC0D75 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */,
+				BAF363B71BDF59CD00AC0D75 /* RATreeView+TableViewDataSource.h */,
+				BAF363B81BDF59CD00AC0D75 /* RATreeView+TableViewDataSource.m */,
+				BAF363B91BDF59CD00AC0D75 /* RATreeView+TableViewDelegate.h */,
+				BAF363BA1BDF59CD00AC0D75 /* RATreeView+TableViewDelegate.m */,
+				BAF363BB1BDF59CD00AC0D75 /* RATreeView+UIScrollView.h */,
+				BAF363BC1BDF59CD00AC0D75 /* RATreeView+UIScrollView.m */,
+				BAF363BD1BDF59CD00AC0D75 /* RATreeView_ClassExtension.h */,
+			);
+			path = "Private Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF3639C1BDF26AE00AC0D75 /* TreeViewCell.xib in Resources */,
 				BAF363731BDF113100AC0D75 /* LaunchScreen.storyboard in Resources */,
 				BAF363701BDF113100AC0D75 /* Assets.xcassets in Resources */,
 				BAF3636E1BDF113100AC0D75 /* Main.storyboard in Resources */,
@@ -270,9 +387,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF363CA1BDF59CD00AC0D75 /* RATreeView+TableViewDelegate.m in Sources */,
+				BAF363C21BDF59CD00AC0D75 /* RATreeNodeCollectionController.m in Sources */,
+				BAF363C81BDF59CD00AC0D75 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */,
+				BAF3639A1BDF1C6700AC0D75 /* TreeViewCell.m in Sources */,
+				BAF363C71BDF59CD00AC0D75 /* RATreeView+Private.m in Sources */,
+				BAF363C01BDF59CD00AC0D75 /* RABatchChanges.m in Sources */,
+				BAF363C51BDF59CD00AC0D75 /* RATreeNodeItem.m in Sources */,
+				BAF363C91BDF59CD00AC0D75 /* RATreeView+TableViewDataSource.m in Sources */,
 				BAF3636B1BDF113100AC0D75 /* ViewController.m in Sources */,
+				BAF363A01BDF573600AC0D75 /* DataTreeViewObject.m in Sources */,
+				BAF363C61BDF59CD00AC0D75 /* RATreeView+Enums.m in Sources */,
+				BAF363CC1BDF59CD00AC0D75 /* RATreeView.m in Sources */,
+				BAF363C31BDF59CD00AC0D75 /* RATreeNodeController.m in Sources */,
 				BAF363681BDF113100AC0D75 /* AppDelegate.m in Sources */,
+				BAF363C41BDF59CD00AC0D75 /* RATreeNodeItem+Private.m in Sources */,
 				BAF363651BDF113100AC0D75 /* main.m in Sources */,
+				BAF363CB1BDF59CD00AC0D75 /* RATreeView+UIScrollView.m in Sources */,
+				BAF363C11BDF59CD00AC0D75 /* RATreeNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TreeViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = doanhkisi.dzai.TreeViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +558,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TreeViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = doanhkisi.dzai.TreeViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
